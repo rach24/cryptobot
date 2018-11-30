@@ -46,9 +46,12 @@ blockquote, q {
 	}
 
 table {
-	margin-top: 60px;
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+table#excelDataTable{
+margin-top:50px;
 }
 
 body {
