@@ -3021,7 +3021,7 @@ input, select, textarea {
 			z-index: 20;
 		}
 
-		/*.spotlight:before {
+		.spotlight:before {
 			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
@@ -3029,7 +3029,7 @@ input, select, textarea {
 			left: 0;
 			top: 0;
 			width: 100%;
-		}*/
+		}
 
 		.spotlight .image.main {
 			display: none;
