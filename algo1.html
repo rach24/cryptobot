@@ -83,15 +83,15 @@ var myList = [{"amount":1,"close_time":"2018-03-15 06-PM","coin_ticker":"ETH","m
   line: {color: 'green'}
   };
 
-var data1 = [trace1];
+var data1 = [trace2, trace1_1, trace1_2];
 
 var layout1 = {
-  title: 'Basic Time Series',
+  title: 'Strategy Graph',
 };
-var data2 = [trace2, trace1_1, trace1_2];
+var data2 = [trace1];
 
 var layout2 = {
-  title: 'Asset Time Series',
+  title: 'Assets over Time',
 };
 
 Plotly.newPlot('myDiv', data1, layout1);
