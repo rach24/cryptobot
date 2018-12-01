@@ -27,12 +27,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-html, body, div, object, iframe, fieldset { 
-margin: 0; 
-padding: 0; 
-border: 0;
-}
-
 body {
 	line-height: 1;
 }
