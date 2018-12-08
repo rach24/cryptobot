@@ -10,15 +10,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body onLoad="buildHtmlTable('#excelDataTable')">
-	<h2><center>Regression Prediction</center></h2>
-	<center>
-  <h3>Algorithm Statistics</h3>
+	<h2><center><u>
+  Regression Prediction</u></center></h2>
+  <center>
+  <h3>Algorithm Stats</h3>
   <div>
   <p>random orders(Buy/Sell) - 32 orders - as done by the strategy - averaged over 100000 runs  - profit = -9.373311299999953</p>
   <p>Beta = 3.5615798922800908</p>
   <p>Net Profit = -99.19000000000051</p></center>
   </div>
-	
 
 <!-- Plotly chart will be drawn inside this DIV -->
 <div id="myDiv" style="width:600; height:800"></div>
@@ -104,7 +104,11 @@ var layout2 = {
 
 Plotly.newPlot('myDiv', data1, layout1);
 Plotly.newPlot('myDiv1', data2, layout2);
-	
+
+
+
+
+
 // Builds the HTML Table out of myList.
 function buildHtmlTable(selector) {
   var columns = addAllColumnHeaders(myList, selector);
